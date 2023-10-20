@@ -61,6 +61,6 @@ th {
 /* Create a right-aligned (split) link inside the navigation bar */
 .topnav a.split {
   float: right;
-  background-color: #dcb0f5;
+  background-color: #e2ed7b;
   color: white;
 }
