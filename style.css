@@ -43,10 +43,6 @@ th {
     padding-right: 35px;
 }
 
-tr {
-    padding-bottom: 10px;
-}
-
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -77,4 +73,8 @@ tr {
 
 .topnav a.split:hover {
   box-shadow: 0px 0px 10px rgb(255, 255, 127);
+}
+
+audio {
+    padding-top: 10px;
 }
