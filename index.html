@@ -6,21 +6,6 @@
     <title>DT Sounds Official</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/png">
-    <script src="https://cdn.jsdelivr.net/npm/oscilloscope@1.x"></script>
-    <script>
-        var Oscilloscope = require('oscilloscope')
-
-        var audioContext = new window.AudioContext()
-
-        // create source from html5 audio element
-        var source = audioContext.createMediaElementSource(audioElement)
-
-        // attach oscilloscope
-        var scope = new Oscilloscope(source)
-
-        // start default animation loop
-        scope.animate(canvas.getContext("2d"))
-    </script>
 </head>
 <body>
     <h1 class="underline">DT Sounds Official</h1>
@@ -41,8 +26,5 @@
             <th><audio controls><source src="DT_Vol1_Demo.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio></th>
         </tr>
     </table>
-    <canvas id="visualizer">
-Your browser does not support the canvas tag.
-</canvas>
 </body>
 </html>
