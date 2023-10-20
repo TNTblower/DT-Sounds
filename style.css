@@ -43,6 +43,10 @@ th {
     padding-right: 35px;
 }
 
+tr {
+    margin-bottom: 10px;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #333;
