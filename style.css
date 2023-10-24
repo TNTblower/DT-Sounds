@@ -494,16 +494,7 @@ audio {
   *:before, *:after {
     box-sizing: inherit;
   }
-  
-  body {
-    min-height: 100vh;
-    font-family: Roboto, Arial;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #444;
-    padding: 20px;
-  }
+
   body .dribbble {
     position: fixed;
     display: block;
