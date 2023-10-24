@@ -20,10 +20,10 @@ $('.dl-button').on('click', e => {
             });
             btn.removeClass('active').addClass('done');
             if (btn.hasClass('evolution')) {
-                window.open("https://drive.google.com/file/d/1o-9Tu-MQ115hEhlVeawgyZXSSed7OSSj/view?usp=sharing", "_blank");
+                window.open("https://drive.google.com/u/0/uc?id=1o-9Tu-MQ115hEhlVeawgyZXSSed7OSSj&export=download", "_blank");
             } else {
                 if (btn.hasClass('vol1')) {
-                    window.open("https://drive.google.com/file/d/1CrskTkG4iSIcOrbRzWVEI-Icrkq2MKUI/view?usp=sharing", "_blank");
+                    window.open("https://drive.google.com/u/3/uc?id=1CrskTkG4iSIcOrbRzWVEI-Icrkq2MKUI&export=download", "_blank");
                 }
             }
         }, getComputedStyle(btn[0]).getPropertyValue('--duration'));
