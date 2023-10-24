@@ -559,3 +559,33 @@ audio {
     font-family: "Rubik", sans-serif;
     transition: color 600ms;
   }
+
+*{
+  padding: 0;
+  margin: 0;
+  }
+  body{
+    background-color: dimgray;
+  }
+  .about-1{
+    margin: 30px;
+    padding: 5px;
+
+  }
+  .about-1 h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+  .about-1 p{
+    text-align: center;
+    padding: 3p;
+    color: white
+    }
+    .about-item{
+      margin-bottom: 20px;
+      margin-top: 20px;
+      background-color: white;
+      padding: 80px,30px;
+      box-shadow: 0 0 9px rgba(0,0,0 .6);
+}
