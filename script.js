@@ -20,7 +20,7 @@ $('.dl-button').on('click', e => {
             });
             btn.removeClass('active').addClass('done');
             if (btn.hasClass('evolution')) {
-                window.open("https://drive.google.com/uc?id=1rt14h9_TrJpM-1Eefm-FXiF5Sai7Czrg&export=download", "_blank");
+                window.open("https://drive.google.com/file/d/1YfzyCrOqPYYVOWAPaiF2BrVlsylRTTnj/view", "_blank");
             } else {
                 if (btn.hasClass('vol1')) {
                     window.open("https://drive.google.com/u/3/uc?id=1CrskTkG4iSIcOrbRzWVEI-Icrkq2MKUI&export=download", "_blank");
